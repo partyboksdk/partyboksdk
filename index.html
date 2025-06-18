@@ -2,53 +2,59 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Party Rentals | Home</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Partyboks – Lej Sound & Lys til Fest</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <a href="index.html" class="logo">Party Rentals</a>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="rentals.html">Rentals</a></li>
-        <li><a href="blog.html">Blog</a></li>
-      </ul>
-      <div class="menu-toggle"></div>
-    </nav>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">Partyboks</a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="soundboks.html">Soundboks</a></li>
+          <li><a href="lighting.html">Party Lys</a></li>
+          <li><a href="festivals.html">Festival</a></li>
+          <!-- blog.html not in nav (SEO only) -->
+        </ul>
+      </nav>
+      <a href="https://hygglo.dk/partyboks" class="btn btn-primary">Book nu</a>
+    </div>
   </header>
-  <main>
-    <section class="hero">
-      <h1>Bring the Party Anywhere</h1>
-      <p>Rent Soundboks Go, Soundboks 3, and Party Lighting for your next event.</p>
-      <a href="rentals.html" class="btn">View Rentals</a>
-    </section>
-    <section class="features">
-      <div class="feature-item">
-        <img src="images/soundboks-go.jpg" alt="Soundboks Go">
-        <h3>Soundboks Go</h3>
-      </div>
-      <div class="feature-item">
-        <img src="images/soundboks3.jpg" alt="Soundboks 3">
-        <h3>Soundboks 3</h3>
-      </div>
-      <div class="feature-item">
-        <img src="images/party-lighting.jpg" alt="Party Lighting">
-        <h3>Party Lighting</h3>
-      </div>
-    </section>
-    <section class="video-intro">
-      <h2>Watch the Official Soundboks Intro</h2>
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/7nacD7tyCVY" title="Soundboks Go Intro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2025 Party Rentals. All Rights Reserved.</p>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Lej Soundboks og Festlys til Din Næste Fest</h1>
+      <p>Vi leverer til alle typer fester – private som festivaler.</p>
+      <a href="soundboks.html" class="btn btn-secondary">Se Produkter</a>
+    </div>
+  </section>
+
+  <section class="features container">
+    <div class="feature-card">
+      <h3>Soundboks Go</h3>
+      <p>Mobilt, kraftfuldt og vandtæt.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Soundboks 3</h3>
+      <p>Ultimativ festkraft med dobbelt batteri.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Mini Party Lys</h3>
+      <p>Smart lys til mindre fester.</p>
+    </div>
+    <div class="feature-card">
+      <h3>Complete Party Lys</h3>
+      <p>Professionelt lyssetup til store events.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Partyboks.dk</p>
+      <p><a href="policy.html">Privatlivspolitik</a></p>
+    </div>
   </footer>
-  <script src="assets/js/main.js"></script>
 </body>
 </html>
